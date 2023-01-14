@@ -1,5 +1,5 @@
 {
-  "name": "get-ip-from-client",
+  "name": "real-ip",
   "version": "1.0.0",
   "description": "This package will get a real client ip address when access by browser or to server",
   "main": "index.mjs",
