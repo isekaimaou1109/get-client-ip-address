@@ -1,0 +1,21 @@
+{
+  "name": "get-ip-from-client",
+  "version": "1.0.0",
+  "description": "This package will get a real client ip address when access by browser or to server",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "keywords": [
+    "ip",
+    "ip-address",
+    "get-ip",
+    "ip-client",
+    "real-ip-client"
+  ],
+  "author": "Toni",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
+}
