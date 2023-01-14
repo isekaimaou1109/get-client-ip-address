@@ -6,13 +6,13 @@
 - `Case 1:` When using in `CommonJS (Node environment)`
 ```javascript
 (async function () {
-	return await (await import('real-ip')).getClientInformation();
+	return await (await import('get-real-client-ip')).getClientInformation();
 })();
 ```
 
 - `Case 2:` When using in `ESM`
 ```javascript
-import { getClientInformation } from 'real-ip'
+import { getClientInformation } from 'get-real-client-ip'
 
 getClientInformation()
   .then(ip => console.log(ip))

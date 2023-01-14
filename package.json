@@ -1,5 +1,5 @@
 {
-  "name": "real-ip",
+  "name": "get-real-client-ip",
   "version": "1.0.0",
   "description": "This package will get a real client ip address when access by browser or to server",
   "main": "index.mjs",
@@ -17,5 +17,10 @@
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^3.3.0"
+  },
+  "url": "https://github.com/isekaimaou1109/get-client-ip-address/issues",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:isekaimaou1109/get-client-ip-address.git"
   }
 }
